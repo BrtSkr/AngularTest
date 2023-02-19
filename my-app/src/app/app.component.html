@@ -1,4 +1,18 @@
-<h1>{{title}} My app Name</h1>
+<h1>{{title}}</h1>
 <div class="container">
-  <app-header></app-header>
+ <!-- <app-handle-data (apiData)="handleData($event)"></app-handle-data>
+ <app-user-data [userData]="data"></app-user-data> -->
+ 
+ <a routerLink="/new">Go to New Component</a>
+ <a routerLink="/userData">UserData</a>
+ <a routerLink="/userData/handleData">UserData</a>
+ <router-outlet>
+  <!-- <app-user-data></app-user-data> -->
+</router-outlet>
+
+
+ <!-- <div *ngFor="let item of data">
+  <li>{{item.User}}</li>
+  <li>Shekels Amount: {{item.Shekels}}</li>
+ </div> -->
 </div>

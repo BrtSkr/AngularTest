@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HandleDataComponent } from './components/handle-data/handle-data.component';
 import { UserDataComponent } from './components/user-data/user-data.component';
 import { NewComponentComponent } from './components/new-component/new-component.component';
+import { NavigationComponent } from './components/navigation/navigation.component';
+import { CountriesComponent } from './components/countries/countries.component';
 
 
 @NgModule({
@@ -14,6 +16,8 @@ import { NewComponentComponent } from './components/new-component/new-component.
     HandleDataComponent,
     UserDataComponent,
     NewComponentComponent,
+    NavigationComponent,
+    CountriesComponent,
   ],
   imports: [
     BrowserModule,

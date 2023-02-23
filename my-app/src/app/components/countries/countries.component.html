@@ -1,0 +1,10 @@
+<p>countries works!</p>
+<section class="countries-container">
+    
+    <div class="countries--container-country" *ngFor="let item of countriesData">
+    
+        <img class="country-flag" src="{{item.flags.png}}" alt="{{item.name.common}} flag">
+        <p>{{item.name.common}}</p>
+        <p>{{item.region}}</p>
+    </div>
+</section>
